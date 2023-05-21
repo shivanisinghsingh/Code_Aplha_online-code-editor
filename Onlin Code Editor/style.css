@@ -1,0 +1,67 @@
+body{
+    background-color: black;
+}
+h2{
+    color: white;
+    color: #FF0;
+    margin-bottom: 0px;
+}
+.text{
+    text-align: center;
+    background: linear-gradient(to right,#FFF 20%, #FF0 40%, #FF0 60%, #FFF 80%);
+    background-size: 200% auto;
+    color: #000;
+    font-size: 50px;
+    letter-spacing: -5px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 1s linear infinite;  
+    margin-bottom: 30px;
+}
+@keyframes shine{
+    to {
+        background-position:200% center;
+            }         
+}
+.subtitle-text{
+    font-size: 20px;
+    
+    margin-bottom: 25px;
+    text-align: center;
+    background-size: 200% auto;
+    color: #FFF;
+}
+.main-area{
+    display: flex;
+}
+textarea{
+    color: white;
+    background-color: rgb(27, 25, 25);
+    width: 100%;
+    min-height: 300px;
+    overflow-y: hidden;
+}
+.editor{
+    color: white;
+    background-color: black;
+    width: 100%;
+    font-size: 25px;
+    padding-left:15px ;
+    padding-top: 7px;
+}
+.text1{
+    color:red;
+}
+.text2{
+    color: rgb(28, 165, 234);
+}
+.text3{
+ color: yellow;
+}
+iframe{
+    background-color: white;
+    min-height: 20em;
+    width: 100%;
+    overflow-y: hidden;
+}
